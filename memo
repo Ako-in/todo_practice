@@ -1,0 +1,13 @@
+Create機能を作る
+    →Create.phpにフォームがある
+    フォームはデータを送信するもの：form(input)タグ、aタグ
+    データの送信方法：GET送信、POST送信
+    <form action="" method=""></form>
+    form:get送信、POST送信の両方できる
+    a:getのみ
+
+    Get：URLに？がつく
+    POST：個人情報がなくても、POST送信をすることもある。
+
+    
+
