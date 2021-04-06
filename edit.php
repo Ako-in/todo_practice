@@ -2,11 +2,21 @@
 // * 下記を追加
 // 1. ファイルの読み込み
 
+require_once('Models/Task.php');
+require_once('function.php');
 
 // 2. データの受け取り
+$id = $_GET['id'];
 
 
 // 3. DBへのデータ保存
+$task = new Task();
+$task =$task ->findById($id);
+
+// $task =(new Task())->findById($id);
+// ↑インスタンス化して、その中にメソッドを実行するコードを一行で書いた場合
+// カッコが増えている。注意すること！！
+
 
 
 ?>
